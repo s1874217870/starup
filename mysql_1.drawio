@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2021-09-16T12:31:20.636Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="f2KyJmhz8Ubyq5jkrEeA" version="14.7.6" type="github"><diagram id="AUfz9sJ-i7cBzn3_MVvI" name="Page-1">7VdLb9swDP41Obaw4yRNjs1j7SEbigbYo5dBtWhbqCwFstzE/fWjbMnP9LVhQIEtl5ifREokP1LSKFilxytF9slnSYGPxh49joL1aDz2vWCOfwYpKmR6MamAWDFqJzXAjj2B07RozihknYlaSq7ZvguGUggIdQcjSslDd1okeXfVPYlhAOxCwofoN0Z1UqHz8UWDXwOLE7eyP1tUIylxk60nWUKoPLSgYDMKVkpKXX2lxxVwEzwXl0rv0zOj9cYUCP0Whd3VPGfRanodXf88fv3ycH/3uD6zVh4Jz63Dmc6psVjtWRcuENmBpZwIlJZhwjjdkkLmZuFMk/DBSctEKvYkhSYch3wEcFhpm9fA68zYGU2EDapkLihQqxThuNXxJ062e/FKo0o+1AkZG33IcP6Ni4ZXQ1uSabcVlwEzSkmWlOsZgXAWC/wOURuUWZBxvpJcqtL5wPOmHkT1wp0Rf71c2S228Kj8IW4DDErD8dnM+TUfsJBApqBVgVOcgqOQqyErHhpC+jOLJW0yOj1iiyCuTTc8wQ9LlXfQZjygjSApjMYz9Nw3AYWUMN6SKdFwCzHLNMa8Ty0XfQ6RHsRYyJJz7YRYKNuTkIl4W2qtJz3aGFKYqDOs5Uu7gJZ7xwtyX5NJSU10S8bEOMa8KXnPF9YwozaDwRszuPhbCVwMEriSucrgf9l/nLKfXHy0sneHcos2mmneLvy9YmFbZgJjl4caA9SAmsTZP9EFFh+7C/jD43+QFqB4H7IiOst0cQucaCbFphkZxDzRqesEIOiluYihuLlNiShcdxigaF4V3xE58849f+qQHyYj53iRtPL6aFNUSUVbugHFMDammCvwyLSx6KPBwMrW3mJu5caeEYqW0LdWBcdE5OWSxgBiNw3h9RMU4xDDi+eId5pCbc54p5qAA1WZrcfujk8xya5xI5m5/bkmVHcdy9n6Yu5MVJ5arfb1s2co6Bny+4aqUAwMlcSuHf8Drs8GXAehJOfDTmQSvCX3+JLpEHlwWvQbS8ooLauh31v2xqnSzelyNF27boM11CHWiQ5jnzXWVvOYeP3+8fLZUlYYVkQ7I+4x8LuMcWZmXQ0ZRRm8M6UoNg+janrzvAw2vwA=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-16T12:39:48.377Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="5lWWTuJ9CILprMsztVl1" version="14.7.6" type="github">
+  <diagram id="AUfz9sJ-i7cBzn3_MVvI" name="Page-1">
+    <mxGraphModel dx="716" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SG8uifC5HfH_xVNkbZvD-1" value="student" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="50" y="160" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SG8uifC5HfH_xVNkbZvD-2" value="Fristname(string)&#xa;Lastname(string)&#xa;email(string)&#xa;dateRegisted(datetime)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="SG8uifC5HfH_xVNkbZvD-1" vertex="1">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SG8uifC5HfH_xVNkbZvD-9" value="Course" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="460" y="160" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SG8uifC5HfH_xVNkbZvD-10" value="title(string)&#xa;price(double)&#xa;instructor&#xa;tags" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="SG8uifC5HfH_xVNkbZvD-9" vertex="1">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="op4RtSuXvCGc1HDcqHbk-1" value="Enrollment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="op4RtSuXvCGc1HDcqHbk-2" value="date(datetime)" style="align=left;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;strokeColor=none;fillColor=none;dashed=1;" vertex="1" parent="op4RtSuXvCGc1HDcqHbk-1">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2021-09-17T12:57:58.190Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="sSvN18fCoEtNlvJZLXXq" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-17T13:10:48.168Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Dq9mawUfXuj0v8OVYfwQ" version="15.2.7" type="github">
   <diagram id="RMH9LBkZdMku891TQ4A5" name="Page-1">
-    <mxGraphModel dx="1692" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2076" dy="2317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ENkWHnzuS75VNohpbnAh-1" value="Passenger" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;rounded=1;sketch=1;" vertex="1" parent="1">
-          <mxGeometry y="60" width="160" height="120" as="geometry" />
+          <mxGeometry x="50" y="50" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ENkWHnzuS75VNohpbnAh-2" value="Name&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=1;sketch=1;" vertex="1" parent="ENkWHnzuS75VNohpbnAh-1">
+        <mxCell id="ENkWHnzuS75VNohpbnAh-2" value="Fristname(string)&#xa;Lastname(string)&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=1;sketch=1;" vertex="1" parent="ENkWHnzuS75VNohpbnAh-1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ENkWHnzuS75VNohpbnAh-3" value="Flight" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;rounded=1;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="70" width="160" height="130" as="geometry" />
+          <mxGeometry x="640" y="30" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="ENkWHnzuS75VNohpbnAh-4" value="Number(string)&#xa;Departuredatetime(datetime)&#xa;Arrivaldatetime(datetime)&#xa;DurationInminutes(integer)&#xa;DistanceInMiles(integer)&#xa;Airline(string)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=1;sketch=1;" vertex="1" parent="ENkWHnzuS75VNohpbnAh-3">
-          <mxGeometry y="30" width="160" height="100" as="geometry" />
+        <mxCell id="ENkWHnzuS75VNohpbnAh-4" value="Number(string)&#xa;Departuredatetime(datetime)&#xa;Arrivaldatetime(datetime)&#xa;DurationInminutes(integer)&#xa;DistanceInMiles(integer)&#xa;Departureairportid(integer)&#xa;Arrivalairportid(integer)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=1;sketch=1;" vertex="1" parent="ENkWHnzuS75VNohpbnAh-3">
+          <mxGeometry y="30" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ENkWHnzuS75VNohpbnAh-8" value="Airport" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;rounded=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="310" width="160" height="120" as="geometry" />
@@ -34,12 +34,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ENkWHnzuS75VNohpbnAh-16" value="Booking" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;glass=0;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="340" y="75" width="160" height="120" as="geometry" />
+          <mxGeometry x="360" y="40" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ENkWHnzuS75VNohpbnAh-17" value="TicketNumber&#xa;Price" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="ENkWHnzuS75VNohpbnAh-16">
+        <mxCell id="ENkWHnzuS75VNohpbnAh-17" value="TicketNumber(string)&#xa;Price(float)&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="ENkWHnzuS75VNohpbnAh-16">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ENkWHnzuS75VNohpbnAh-23" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERone;startSize=30;exitX=0.996;exitY=0.406;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startFill=0;" edge="1" parent="1" source="ENkWHnzuS75VNohpbnAh-2" target="ENkWHnzuS75VNohpbnAh-17">
+        <mxCell id="ENkWHnzuS75VNohpbnAh-23" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERone;startSize=30;exitX=0.996;exitY=0.406;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startFill=0;" edge="1" parent="1" source="ENkWHnzuS75VNohpbnAh-2" target="ENkWHnzuS75VNohpbnAh-17">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="260" y="230" as="sourcePoint" />
             <mxPoint x="260" y="130" as="targetPoint" />
@@ -62,7 +62,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ENkWHnzuS75VNohpbnAh-28" value="Airlines" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;glass=0;sketch=0;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="950" y="40" width="160" height="120" as="geometry" />
+          <mxGeometry x="960" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ENkWHnzuS75VNohpbnAh-29" value="Name(string)&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="ENkWHnzuS75VNohpbnAh-28">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
@@ -71,6 +71,18 @@
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="860" y="230" as="sourcePoint" />
             <mxPoint x="960" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ENkWHnzuS75VNohpbnAh-31" value="FlightClass" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;glass=0;sketch=0;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-180" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ENkWHnzuS75VNohpbnAh-32" value="name(string)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="ENkWHnzuS75VNohpbnAh-31">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ENkWHnzuS75VNohpbnAh-34" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startSize=30;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ENkWHnzuS75VNohpbnAh-16" target="ENkWHnzuS75VNohpbnAh-32">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="190" y="70" as="sourcePoint" />
+            <mxPoint x="290" y="-30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

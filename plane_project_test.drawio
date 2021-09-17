@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-17T11:52:27.785Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="VoR-vV-Q6eQiIwIjzIN2" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-17T12:57:58.190Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="sSvN18fCoEtNlvJZLXXq" version="15.2.7" type="github">
   <diagram id="RMH9LBkZdMku891TQ4A5" name="Page-1">
     <mxGraphModel dx="1692" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,13 +13,13 @@
         <mxCell id="ENkWHnzuS75VNohpbnAh-3" value="Flight" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;rounded=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="70" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ENkWHnzuS75VNohpbnAh-4" value="Number&#xa;Departuredatetime&#xa;Arrivaldatetime&#xa;Duration&#xa;Distance&#xa;Airline" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=1;sketch=1;" vertex="1" parent="ENkWHnzuS75VNohpbnAh-3">
+        <mxCell id="ENkWHnzuS75VNohpbnAh-4" value="Number(string)&#xa;Departuredatetime(datetime)&#xa;Arrivaldatetime(datetime)&#xa;DurationInminutes(integer)&#xa;DistanceInMiles(integer)&#xa;Airline(string)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=1;sketch=1;" vertex="1" parent="ENkWHnzuS75VNohpbnAh-3">
           <mxGeometry y="30" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ENkWHnzuS75VNohpbnAh-8" value="Airport" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;rounded=1;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="320" width="160" height="120" as="geometry" />
+          <mxGeometry x="520" y="310" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ENkWHnzuS75VNohpbnAh-9" value="IATA&#xa;Name&#xa;City&#xa;Country&#xa;State" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=1;sketch=1;" vertex="1" parent="ENkWHnzuS75VNohpbnAh-8">
+        <mxCell id="ENkWHnzuS75VNohpbnAh-9" value="IATA(string)&#xa;Name(string)&#xa;City(string)&#xa;State(string)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=1;sketch=1;" vertex="1" parent="ENkWHnzuS75VNohpbnAh-8">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ENkWHnzuS75VNohpbnAh-12" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERmany;exitX=1;exitY=0.417;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ENkWHnzuS75VNohpbnAh-9" target="ENkWHnzuS75VNohpbnAh-4">
@@ -39,7 +39,7 @@
         <mxCell id="ENkWHnzuS75VNohpbnAh-17" value="TicketNumber&#xa;Price" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="ENkWHnzuS75VNohpbnAh-16">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ENkWHnzuS75VNohpbnAh-23" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERmany;startSize=30;exitX=0.996;exitY=0.406;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ENkWHnzuS75VNohpbnAh-2" target="ENkWHnzuS75VNohpbnAh-17">
+        <mxCell id="ENkWHnzuS75VNohpbnAh-23" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERone;startSize=30;exitX=0.996;exitY=0.406;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startFill=0;" edge="1" parent="1" source="ENkWHnzuS75VNohpbnAh-2" target="ENkWHnzuS75VNohpbnAh-17">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="260" y="230" as="sourcePoint" />
             <mxPoint x="260" y="130" as="targetPoint" />
@@ -50,7 +50,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ENkWHnzuS75VNohpbnAh-24" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERmany;startSize=30;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ENkWHnzuS75VNohpbnAh-17" target="ENkWHnzuS75VNohpbnAh-4">
+        <mxCell id="ENkWHnzuS75VNohpbnAh-24" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;startArrow=ERmany;startSize=30;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="ENkWHnzuS75VNohpbnAh-17" target="ENkWHnzuS75VNohpbnAh-4">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="260" y="230" as="sourcePoint" />
             <mxPoint x="360" y="130" as="targetPoint" />
@@ -59,6 +59,18 @@
         <mxCell id="ENkWHnzuS75VNohpbnAh-27" value="issued for" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="ENkWHnzuS75VNohpbnAh-24">
           <mxGeometry x="-0.169" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ENkWHnzuS75VNohpbnAh-28" value="Airlines" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;glass=0;sketch=0;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="950" y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ENkWHnzuS75VNohpbnAh-29" value="Name(string)&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="ENkWHnzuS75VNohpbnAh-28">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ENkWHnzuS75VNohpbnAh-30" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;startSize=30;exitX=1;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.017;entryY=0.402;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERoneToMany;startFill=0;endFill=0;" edge="1" parent="1" source="ENkWHnzuS75VNohpbnAh-4" target="ENkWHnzuS75VNohpbnAh-29">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="860" y="230" as="sourcePoint" />
+            <mxPoint x="960" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

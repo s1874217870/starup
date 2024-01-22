@@ -1,9 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T08:45:01.084Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="22.1.16" etag="EcFG1fz4_ZHBOCowNqGC" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T08:48:59.118Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="wbjU69ciBQlmaF9Sxrkk" version="22.1.16" type="github">
   <diagram name="第 1 页" id="z21GSrNk0fA5djcfAShw">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KlCUDF6oogM89RWXSskJ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KlCUDF6oogM89RWXSskJ-1" target="KlCUDF6oogM89RWXSskJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KlCUDF6oogM89RWXSskJ-1" value="IP" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="410" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KlCUDF6oogM89RWXSskJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KlCUDF6oogM89RWXSskJ-2" target="KlCUDF6oogM89RWXSskJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KlCUDF6oogM89RWXSskJ-2" value="IP" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="330" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KlCUDF6oogM89RWXSskJ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KlCUDF6oogM89RWXSskJ-3" target="KlCUDF6oogM89RWXSskJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KlCUDF6oogM89RWXSskJ-3" value="IP" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KlCUDF6oogM89RWXSskJ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KlCUDF6oogM89RWXSskJ-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KlCUDF6oogM89RWXSskJ-5" value="中转服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KlCUDF6oogM89RWXSskJ-14" value="经运营商广播到服务器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="290" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KlCUDF6oogM89RWXSskJ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KlCUDF6oogM89RWXSskJ-16" target="KlCUDF6oogM89RWXSskJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KlCUDF6oogM89RWXSskJ-16" value="Users" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KlCUDF6oogM89RWXSskJ-18" value="用户指定某个IP使用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="415" y="120" width="130" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
